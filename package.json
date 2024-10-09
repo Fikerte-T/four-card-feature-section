@@ -1,0 +1,23 @@
+{
+  "name": "four-card-feature-section",
+  "version": "1.0.0",
+  "description": "![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./style.css -o ./dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fikerte-T/four-card-feature-section.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fikerte-T/four-card-feature-section/issues"
+  },
+  "homepage": "https://github.com/Fikerte-T/four-card-feature-section#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
