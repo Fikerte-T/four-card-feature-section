@@ -586,6 +586,18 @@ video {
   right: 1.5rem;
 }
 
+.order-last {
+  order: 9999;
+}
+
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
+
+.flex {
+  display: flex;
+}
+
 .grid {
   display: grid;
 }
@@ -598,6 +610,30 @@ video {
   width: 83.333333%;
 }
 
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-72 {
+  width: 18rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[30rem\] {
+  width: 30rem;
+}
+
 .max-w-96 {
   max-width: 24rem;
 }
@@ -606,12 +642,24 @@ video {
   max-width: 100%;
 }
 
-.place-self-center {
-  place-self: center;
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.border-2 {
-  border-width: 2px;
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.place-self-center {
+  place-self: center;
 }
 
 .border-customblue {
@@ -634,19 +682,9 @@ video {
   border-color: hsl(0 78% 62% / var(--tw-border-opacity));
 }
 
-.border-orange-600 {
-  --tw-border-opacity: 1;
-  border-color: rgb(234 88 12 / var(--tw-border-opacity));
-}
-
 .bg-verylightgray {
   --tw-bg-opacity: 1;
   background-color: hsl(0 0% 98% / var(--tw-bg-opacity));
-}
-
-.px-9 {
-  padding-left: 2.25rem;
-  padding-right: 2.25rem;
 }
 
 .py-20 {
@@ -654,46 +692,8 @@ video {
   padding-bottom: 5rem;
 }
 
-.py-28 {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
-.py-24 {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .pb-12 {
   padding-bottom: 3rem;
-}
-
-.pt-5 {
-  padding-top: 1.25rem;
 }
 
 .pt-4 {
@@ -730,4 +730,36 @@ video {
 .text-verydar4kblue {
   --tw-text-opacity: 1;
   color: hsl(234 12% 34% / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:m-0 {
+    margin: 0px;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:w-\[30rem\] {
+    width: 30rem;
+  }
+
+  .md\:max-w-\[70\%\] {
+    max-width: 70%;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }
