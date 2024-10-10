@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card {
+        padding: 1.25rem;
+        background-color: white;
+        border-top: solid 4px;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0px 1px 15px theme('colors.grayishblue');
+        margin: 1.5rem 0;
+    }
+
+    .card h3 {
+        font-weight: 600;
+        line-height: 1.75rem;
+        font-size: 1.125rem;
+        color: theme('colors.verydar4kblue');
+    }
+
+    .card p {
+        font-size: 0.875rem;
+        line-height: 1.625rem;
+        margin-bottom: 6.5rem;
+        color: theme('colors.grayishblue');
+    }
+
+    .card img {
+        max-width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+
+}
