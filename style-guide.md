@@ -1,38 +1,67 @@
-# Front-end Style Guide
+# Frontend Mentor - Four card feature section solution
 
-## Layout
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). 
 
-The designs were created to the following widths:
+## Table of contents
 
-- Mobile: 375px
-- Desktop: 1440px
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
 
-## Colors
+## Overview
 
-### Primary
+### The challenge
 
-- Red: hsl(0, 78%, 62%)
-- Cyan: hsl(180, 62%, 55%)
-- Orange: hsl(34, 97%, 64%)
-- Blue: hsl(212, 86%, 64%)
+Users should be able to:
 
-### Neutral
+- View the optimal layout for the site depending on their device's screen size
 
-- Very Dark Blue: hsl(234, 12%, 34%)
-- Grayish Blue: hsl(229, 6%, 66%)
-- Very Light Gray: hsl(0, 0%, 98%)
 
-## Typography
+### Links
 
-### Body Copy
+- Solution URL: [Add solution URL here](https://github.com/Fikerte-T/four-card-feature-section)
+- Live Site URL: [Add live site URL here](https://fikerte-t.github.io.four-card-feature-section/)
 
-- Font size: 15px
+## My process
 
-### Fonts
+### Built with
 
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 200, 400, 600
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Tailwindcss](https://tailwindcss.com/) - For styles
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+
+### What I learned
+
+- to use clamp() for responsive typography
+- using grid to apply different layouts for different screen sizes
+
+### Continued development
+
+Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+
+### Useful resources
+
+- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+
+## Author
+
+- Website - [Fikerte T](https://fikerte-t.github.io/portfolio/)
+- Frontend Mentor - [@Fikerte-T](https://www.frontendmentor.io/profile/Fikerte-T)
+- LinkedIn - [@Fikerte-T](https://www.linkdedin.com/in/fikerte-tesfaye)
+
+## Acknowledgments
+
+Would like to thank [Frontend Mentor](https://www.frontendmentor.io) for this challenge/project that helped me improve your coding skills.
