@@ -14,9 +14,12 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Poppins", "sans-serif"]
-      }
+      },
+      fontSize: {
+        'clamp-heading': 'clamp(1.6rem, 2vw + 0.8rem, 2.1rem)',
+        'clamp-paragraph': 'clamp(0.9rem, 1.5rem - 2vw, 1rem)',
+      },
     },
   },
   plugins: [],
 }
-
